@@ -21,8 +21,11 @@ I don't really want to be bothered with support - I have yet to clean this up an
 How to install:
 ======
 1) install plugin into wordpress
+
 2) install tika's jar (http://tika.apache.org/) somewhere on your machine (this also assumes you have java on your machine)
+
 3) change configuration settings - right now, just edit them in the plugin's PHP file
+
 4) install 'search everything' (http://wordpress.org/plugins/search-everything/) - or any plugin that searches post metadata, configured it to do so
 
 OK!
@@ -31,8 +34,10 @@ How to use:
 ======
 1) upload content
 	if it's a PDF or DOC, it will take an extra few seconds after upload to process the file & insert metadata.
+
 2) search 
 	the attachment's contents (now in metadata) will be searched per-search, and attachment will be listed in search results if there's a match.
+
 3) delete content.
 	when 'permanently deleted' through wordpress 'media' menu, this plugin will delete all metadata it created. 
 	
@@ -46,9 +51,14 @@ I also use 'publication manager' (http://wordpress.org/plugins/tags/publication-
 why masala? 
 ======
 
-in the tradition of open source software, it's a bad pun.
+in the tradition of open source software, it's a bad pun (on Apache Tika)
+
 Masala actually is a mixture of spices in Indian, Nepali, Bangladeshi and Pakastani cuisines. 
-Masala digtiallyis this WordPress plugin - not as tasty, but still a mix of spicy code. as in, will cause indigestion.
-also, this is my first WP plugin - it's very limited, only adds and deletes metadata upon upload for file formats that it knows.but it works !!! i'm using it on a few WP sites for work (named-data.net, ndn.ucla.edu)
+
+Masala digtially, is this WordPress plugin - not as tasty, but still a mix of spicy code. as in, will cause indigestion.
+
+also, this is my first WP plugin - it's very limited, only adds and deletes metadata upon upload for file formats that it knows.but it works !!! 
+
+i'm using it on a few WP sites for work (named-data.net, ndn.ucla.edu)
 
 The hope is that someone will either extend this, or bite this to use in existing plugins - and meanwhile that this distribution will help some users out.
